@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+    /* Header */
+
+    .header {
+        max-width: 1024px;
+    }
+
+    .header__container {
+        max-width: 924px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav__burger {
+        display: block;
+    }
+
+    /* Main Head */
+
+    .main__container {
+        max-width: 924px;
+    }
+
+    .main__head__left {
+        height: 668px;
+    }
+
+    .main__head__content {
+        max-width: 770px;
+        top: 160px;
+    }
+
+    .main__head__heading {
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .main__head__discription {
+        max-width: 660px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    .main__head__btn {
+        margin-top: 60px;
+        font-size: 23.4581px;
+        line-height: 29px;
+    }
+
+    .swiper-slide-1024 {
+        background: url(./../img/main/media/head/head-meadia-1024.jpg) !important;
+    }
+
+    /* Main info */
+    
+    .main__info__discription {
+        max-width: 925px;
+    }
+
+    /* Main Details */
+
+    .main__info__details {
+        flex-direction: column;
+    }
+
+    .main__info__details__left {
+        width: 924px;
+        height: 640px;
+        background-size: cover;
+        background: url(./../img/main/media/main/Rectangle1024.jpg);
+    }
+
+    .info__details__left__discriptions {
+        justify-content: space-between;
+        max-width: 924px;
+    }
+
+    .main__info__details__right {
+        max-width: 924px;
+        margin-top: 32px;
+    }
+
+    .right__details__right__top__heading {
+        font-size: 24px;
+        line-height: 29px;  
+    }
+
+    .right__details__right__top__discriptions {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .info__details__right__top {
+        padding: 77px 150px 65px 77px;
+        max-width: 924px;
+    }
+
+    .info__details__right__bottom {
+        max-width: 748px;
+    }
+
+    /* Main work */
+
+    .main__work__consultation {
+        max-width: 924px;
+    }
+
+    .main__work__consultation__right {
+        max-width: 437px;
+
+    }
+
+    .right-modification {
+        margin-right: 0;
+    }
+
+    .main__work__consultation__right__img {
+        margin-left: auto;
+        max-width: inherit;
+    }
+
+    .consultation__left__discription {
+        margin-bottom: 15px;
+        max-width: 437px;
+    }
+
+    /* Questions */
+
+    .main__questions__head {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    /* Footer */
+
+    .footer__container {
+        max-width: 924px;
+    }
+
+    .margin-form-right {
+        margin-right: 0px;
+    }
+
+    .footer__discriptions {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,262 @@
+/* Footer */
+
+.footer {
+    margin-top: 100px;
+    background: #222222;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1770px;
+    margin: auto;
+    padding: 46px 0px;
+    
+}
+
+.top-margin {
+    margin-top: 20px;
+}
+
+.footer__info__nav__list {
+    margin: 0;
+    padding-left: 0px;
+}
+
+.footer__info__nav__list__item {
+    list-style: none;
+}
+
+.footer__info__nav__list__link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #CACACA;
+}
+
+.footer__info__nav__list__link:hover {
+    cursor: pointer;
+    color: #FF9900;
+}
+
+.footer__info__nav__list__link:focus {
+    padding: 4px;
+    outline: none;
+    border: 2px solid #FF9900;
+}
+
+.footer__info__nav__list__link:active {
+    color: #E1670E
+}
+
+
+
+.margin-top-social {
+    margin-top: 90px;
+}
+
+.margin-right-social {
+    margin-right: 25px;
+}
+
+.footer__info__social__fb path:hover {
+    cursor: pointer;
+    fill: #FF9900;
+}
+
+.footer__info__social__instagram path:hover {
+    cursor: pointer;
+    fill: #FF9900;
+}
+
+.footer__info__social__vk path:hover {
+    cursor: pointer;
+    fill: #FF9900;
+}
+
+.footer__aplication {
+    margin-left: auto;
+}
+
+.margin-form-right {
+    margin-right: 236px;
+}
+
+.footer__aplication__heading {
+    margin: 0;
+    max-width: 486px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #CACACA;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer__form__name {
+    max-width: 570px;
+    border: none;
+    margin-top: 25px;
+    padding: 14px 14px 14px 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    background: #414141;
+}
+
+.footer__form__name:hover {
+    background: #666666;
+}
+
+.footer__form__name:focus {
+    background: #666666;
+}
+
+.footer__form__name:active {
+    background: #666666;
+}
+
+.footer__form__name::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer__form__email {
+    max-width: 570px;
+    border: none;
+    margin-top: 25px;
+    padding: 14px 14px 14px 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    background: #414141;
+}
+
+.footer__form__email:hover {
+    background: #666666;
+}
+
+.footer__form__email:focus {
+    background: #666666;
+}
+
+.footer__form__email:active {
+    background: #666666;
+}
+
+.footer__form__email::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+} 
+
+.footer__form__message {
+    max-width: 570px;
+    min-height: 122px;
+    border: none;
+    margin-top: 25px;
+    vertical-align:top;
+    padding: 14px 14px 14px 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    background: #414141;
+}
+
+.footer__form__message:hover {
+    background: #666666;
+}
+
+.footer__form__message:active {
+    background: #666666;
+}
+
+.footer__form__message:focus {
+    background: #666666;
+}
+
+
+.fotter__form__btn {
+    margin-top: 32px;
+    margin-right: 22px;
+    width: 269px;
+    padding: 19px 52px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF9900;
+}
+
+.fotter__form__btn:hover {
+    cursor: pointer;
+    background: #F7B045;
+}
+
+.fotter__form__btn:active {
+    background: #E1670E;
+}
+
+.fotter__form__btn:focus {
+    background: #F7B045;
+}
+
+.footer_checkbox {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer__discriptions {
+    max-width: 363px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    align-self: center;
+}

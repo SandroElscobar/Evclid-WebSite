@@ -1,0 +1,322 @@
+
+@media (max-width: 320px) {
+    /* Header */
+    .header {
+        max-width: 320px;
+    }
+
+    .header__container {
+        max-width: 290px;
+    }
+
+    /* Main */
+
+    .main {
+        max-width: 320px;
+    }
+
+    .main__container {
+        max-width: 290px;
+    }
+
+    .main__head__left {
+        max-height: 308px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main__head__content {
+        max-width: 247px;
+        top: 60px;
+        left: 22px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swiper-slide-320 {
+        background: url(./../img/main/media/head/Remaster320.jpg) !important;
+    }
+
+    .main__head__heading {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .main__head__discription {
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .main__head__btn {
+        display: block;
+        margin-top: 32px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 12px 24px ;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 15px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        margin-right: 20px;
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #FFFFFF;
+    }
+
+
+
+    /* Infp */
+
+    .heading-original {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .main__info__discription {
+        max-width: 290px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .main__info__details {
+        max-width: 290px;
+    }
+
+    .main__info__details__left {
+        padding: 120px 0px 0px 0px;
+        max-height: 300px;
+        max-width: 290px;
+        background: url(./../img/main/media/main/Rectangle320.jpg) no-repeat;
+    }
+
+    .info__details__left__discriptions {
+        padding: 0px;
+        flex-direction: column;
+        background: none;
+    }
+
+    .info__details__left__discriptions__item {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #333333;
+    }
+
+    .info__details__discriprion__btn {
+        padding: 13px 39px;
+        margin-top: 8px;
+        display: block;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FF9900;
+        align-self: flex-start;
+    }
+
+    .main__info__details__right {
+        margin-top: 32px;
+        max-width: 290px;
+    }
+
+    .info__details__right__top {
+        padding: 0px;
+        border: none;
+        align-items:flex-start;
+        max-width: 290px;
+        flex-direction: column;
+    }
+
+    .right__details__right__top__heading {
+        margin-top: 13px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .right__details__right__top__discriptions {
+        margin-top: 4px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .info__details__right__bottom {
+        padding: 0px;
+        border: none;
+        align-items:flex-start;
+        max-width: 290px;
+        flex-direction: column;
+    }
+
+    .right__details__right__bottom__heading {
+        margin-top: 13px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .right__details__right__bottom__discriptions {
+        margin-top: 4px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* Work */
+
+    .main__work {
+        margin-top: 60px;
+        max-width: 290px;
+    }
+
+    .main__work__heading {
+        margin-top: 0px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .work__list__item:not(:last-child) {
+        margin-right: 29px;
+    }
+
+    .main__work__consultation__left {
+        max-width: 290px;
+    }
+
+    .main__work__consultation__right {
+        max-width: 290px;
+    }
+
+    .main__work__consultation__left {
+        margin-top: 16px;
+    }
+
+    .consultation__left__heading {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .consultation__left__discription {
+        font-size: 14px;
+        line-height: 28px; 
+    }
+
+    .consultation__left__details {
+        padding: 12px 38px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .left-btn {
+        margin-right: 10px;
+    }
+
+    .consultation__left__contract {
+        padding: 11px 28px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .main__questions {
+        margin-top: 60px;
+    }
+
+    .main__questions__heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .main__questions__head {
+        max-width: 243px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .accordion-aicon {
+        top: 50px;
+        bottom: 39px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .accordion-icon {
+        width: 30px;
+        height: 30px;
+        background-image: url(./../img/main/media/question/accordion-icon-320.svg)
+    }
+
+    /* Footer */
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .footer__container {
+        padding-bottom: 32px;
+        max-width: 290px;
+    }
+
+    .footer__info {
+        margin-top: 0;
+        padding-top: 25.41px;
+    }
+
+    .footer__aplication__heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .footer__aplication {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #595959;
+    }
+
+    .fotter__form__btn {
+        margin-right: 0px;
+        margin-top: 25px;
+        max-width: 180px;
+        padding: 13px 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer__form__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__info__social__fb {
+        width: 40px;
+    }
+
+    .footer__info__social__instagram {
+        width: 40px;
+    }
+
+    .footer__info__social__vk {
+        width: 40px;
+    }
+}

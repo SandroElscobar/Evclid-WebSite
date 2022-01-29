@@ -1,0 +1,193 @@
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        max-width: 768px;
+    }
+
+    .header__container {
+        max-width: 668px;
+        margin: auto;
+    }
+
+    .header__search {
+        margin: 0px;
+    }
+
+
+    /* Main */
+    .main {
+        max-width: 768px;
+    }
+
+    .main__container {
+        max-width: 668px;
+    }
+
+    /* Main Head */
+
+    .main__head__content {
+        max-width: 588px;
+        left: 40px;
+    }
+
+    .main__head__heading {
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .main__head__discription {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .swiper-slide-768 {
+        background: url(./../img/main/media/head/head-meadia-768.jpg) !important;
+    }
+
+    /* Info */
+
+    .main__info {
+        max-width: 668px; 
+    }
+
+    .main__info__heading {
+        margin-top: 80px;
+    }
+
+    .main__info__discription {
+        max-width: 668px;
+    }
+
+    .main__info__details {
+        max-width: 668px;
+    }
+
+    .main__info__details__left {
+        max-width: 668px;
+        background: url(./../img/main/media/main/Rectangle768.jpg);
+    }
+
+    .info__details__left__discriptions {
+        max-width: 668px;
+        padding: 34px 40px;
+    }
+
+    .info__details__left__discriptions__item {
+        max-width: 366px;
+        padding: 0px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .btn-modifier {
+        margin-left: 0px;
+    }
+
+
+    .info__details__right__top {
+        align-items: center;
+        max-width: 668px;
+        padding: 35px 44px 35px 40px;
+    }
+
+    .right__details__right__top__heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .right__details__right__top__discriptions {
+        margin-bottom: 0px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .left-margin {
+        margin-right: 16px;
+    }
+
+    .info__details__right__bottom {
+        align-items: center;
+        max-width: 580px;
+        padding: 35px 43px 35px 40px;
+    }
+
+    .right__details__right__bottom__heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .right__details__right__bottom__discriptions {
+        margin-bottom: 0px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    /* Work */
+    .main__work__consultation {
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+    }
+
+    .main__work__consultation__left {
+        order: 2;
+    }
+
+    .main__work__consultation__right{
+        max-width: 668px;
+        height: auto;
+    }
+    .right-modification {
+        margin-right: 0px;
+    }
+
+    .main__work__consultation__left {
+        margin-top: 38px;
+    }
+
+    .consultation__left__discription {
+        max-width: 667px;
+    }
+
+    .main__questions {
+        margin-top: 80px;
+    }
+
+    .main__questions__head {
+        max-width: 570px;
+    }
+
+    .accordion-aicon {
+        top: 35px;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        max-width: 668px;
+        flex-direction: column;
+    }
+    .footer__info__nav {
+        display: none;
+    }
+
+    .footer__info {
+        margin-top: 50px;
+        order: 2;
+    }
+
+    .margin-form-right {
+        margin: 0px;
+    }
+
+    .margin-top-social {
+        margin-top: 16px;
+    }
+}
